@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+  font-family: "EB Garamond", Arial, Helvetica, sans-serif;
+}
+
+.resume {
+  width: 210mm;
+  height: 297mm;
+  background-color: rgb(173, 230, 221);
+  box-sizing: border-box;
+}

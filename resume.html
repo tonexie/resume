@@ -8,21 +8,18 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./resume.css" />
   </head>
   <body>
-    <div class="resume mx-auto p-8">
-      <header class="mb-8">
-        <h1 class="text-3xl font-bold">Your Name</h1>
-        <p class="text-lg text-gray-600">Email: example@example.com</p>
-        <p class="text-lg text-gray-600">Phone: 123-456-7890</p>
-        <a
-              href=./Resume_XIE_TONE.pdf
-              download=Resume_XIE_TONE
-              target="_blank" // opens new tab
-              rel="noreferrer"
-            >
-        download here
-      </a>
+    <div class="resume mx-auto">
+      <header class="mb-4">
+        <h1 class="text-3xl font-bold">Tone Xie</h1>
+        <div class="w-full border-b-2 border-black"></div>
+        <div class="flex text-[0.8rem] text-gray-800">
+          West Harbour, Auckland 0618 | +64 (0)22 625 1936 | tone.xie@gmail.com
+          | NZ Citizen |
+          <p class="font-bold pl-1">Site: tx-portfolio.netlify.app</p>
+        </div>
       </header>
       <section class="mb-8">
         <h2 class="text-2xl font-bold mb-4">Education</h2>
@@ -41,20 +38,16 @@
         <ul class="list-disc pl-4">
           <li class="text-lg">Skill 1</li>
           <li class="text-lg">Skill 2</li>
-          <!-- Add more skills as needed -->
         </ul>
       </section>
-      <!-- Add more sections for other resume content -->
     </div>
+    <a
+      href="./Resume_XIE_TONE.pdf"
+      download="Resume_XIE_TONE"
+      target="_blank"
+      rel="noreferrer"
+    >
+      download here
+    </a>
   </body>
 </html>
-
-<style>
-  .resume {
-    width: 210mm;
-    height: 297mm;
-    background-color: rgb(173, 230, 221);
-    padding: 20mm;
-    box-sizing: border-box;
-  }
-</style>
