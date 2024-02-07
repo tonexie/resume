@@ -1,12 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond&display=swap');
 
 body {
-  font-family: "EB Garamond", Arial, Helvetica, sans-serif;
+  font-family: Cambria, "EB Garamond", Arial, Helvetica, sans-serif;
 }
 
 .resume {
   width: 210mm;
   height: 297mm;
-  background-color: rgb(173, 230, 221);
+  background-color: white;
+  margin: auto;
+  font-size: 14px;
+  padding: 2rem 2rem;
+  line-height: 1rem;
   box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    background-color: black;
+  }
 }
