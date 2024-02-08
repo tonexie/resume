@@ -2,6 +2,8 @@
 
 body {
   font-family: Cambria, "EB Garamond", Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 100%;
 }
 
 .resume {
@@ -11,12 +13,32 @@ body {
   margin: auto;
   font-size: 14px;
   padding: 2rem 2rem;
+  margin-bottom: 5%;
   line-height: 1rem;
   box-sizing: border-box;
+  box-shadow: 2px 2px 8px rgb(17, 243, 10);
+  z-index: 1;
+}
+
+#Matrix {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
 }
 
 @layer base {
   html {
     background-color: black;
+    height: 100%;
+  }
+}
+
+
+/* FOR PDF CONVERSION */
+body {
+  .resume {
+    margin-top: 5%;
   }
 }

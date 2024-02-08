@@ -11,306 +11,321 @@
     <link rel="stylesheet" href="./resume.css" />
   </head>
   <body>
-    <div id="PAGE" class="resume">
-      <header class="mb-2">
-        <h1 class="text-5xl font-bold">Tone Xie</h1>
-        <div class="w-full border-b-2 border-black"></div>
-        <div class="flex text-gray-800 justify-center">
-          West Harbour, Auckland | +64 (0)226251936 | tone.xie@gmail.com | NZ
-          Citizen |
-          <a
-            href="https://tx-portfolio.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p class="pl-1 font-bold">Site: tx-portfolio.netlify.app</p>
-          </a>
-        </div>
-      </header>
-
-      <section id="Personal_Statement" class="mb-3">
-        <h2 class="text-2xl font-bold">Personal Statement</h2>
-        <div class="w-full border-b border-gray-700 mb-1"></div>
-        <p>
-          Combining my background in structural engineering with a lifelong
-          passion for software development, I've embarked on a journey fueled by
-          my desire for crafting solutions and building tangible results. My
-          goal is to apply my diverse skill set to make meaningful contributions
-          to innovative projects. I am eager to join a dynamic environment that
-          not only promotes continuous learning and development but also
-          embodies a strong commitment to professional growth with a positive
-          and inclusive company culture. Outside of work, you'll often find me
-          on the tennis court or immersed in a good book.
-        </p>
-      </section>
-
-      <section id="Work_Experience" class="mb-3">
-        <h2 class="text-2xl font-bold mb-0.5">Work Experience</h2>
-        <div class="w-full border-b border-gray-700 mb"></div>
-
-        <div id="Tutor" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Postgraduate Web Development Tutor | University of Auckland
-            </p>
-            <p class="italic">February 2024 - Present</p>
-          </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Guided postgraduate students in mastering web development
-              technologies as a tutor, emphasizing foundational concepts,
-              responsive design, frontend and backend frameworks, database
-              management, and version control systems.
-            </li>
-          </ul>
-        </div>
-
-        <div id="Fourier" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Frontend Engineer Intern | Fourier Labs | Remote
-            </p>
-            <p class="italic">November 2023 - January 2024</p>
-          </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Ensured full responsiveness for a React website with the use of
-              Tailwind.
-            </li>
-            <li class="mb-0">
-              Integrated new components, such as page views and visual features,
-              for a VueJs website based on Figma design specifications. Improved
-              functionality of footer links and addressed existing bugs.
-            </li>
-            <li class="mb-0">
-              Demonstrated commitment and drive in learning new technologies
-              through rapid acquisition of skills in React, VueJs, and Tailwind
-              CSS with no prior knowledge.
-            </li>
-          </ul>
-        </div>
-
-        <div id="HFC" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Structural Engineer | Harris Foster Consulting Group | Auckland
-            </p>
-            <p class="italic">June 2022 - April 2023</p>
-          </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Effectively managed and coordinated work on hundreds of different
-              projects from terrace housing and 3-story standalone homes, to
-              housing developments up to 17 blocks at a time, to issuing CANs
-              addressing on-site issues.
-            </li>
-            <li class="mb-0">
-              Consistently demonstrated exceptional time management skills and
-              work efficiency, successfully managing up to 20 concurrent
-              projects with a strong track record of meeting deadlines and
-              delivering within budget.
-            </li>
-          </ul>
-        </div>
-
-        <div id="TMC" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Graduate Structural Engineer | TMC Consulting Engineers | Auckland
-            </p>
-            <p class="italic">Jun 2021 - Feb 2022</p>
-          </div>
-          <ul class="list-disc pl-5 leading-tight">
-            <li class="mb-1">
-              Completed over 60 projects, including structural calculations, CAD
-              drawings, and preparation of BC documents.
-            </li>
-          </ul>
-        </div>
-
-        <div id="MEC">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Intern &#8594; Graduate Engineer | MEC Consultant Engineering |
-              Auckland
-            </p>
-            <p class="italic">Dec 2019 - Feb 2021</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="Personal_Projects" class="mb-1.5">
-        <h2 class="text-2xl font-bold mb-0.5">Projects</h2>
-        <div class="w-full border-b border-gray-700 mb"></div>
-
-        <div id="Personal_web" class="mb-1.5">
-          <div class="flex font-bold">
-            Personal Portfolio Website |
+    <div class="flex flex-col justify-center items-center">
+      <canvas id="Matrix"></canvas>
+      <script src="./matrix.js"></script>
+      <div id="PAGE" class="resume">
+        <header class="mb-2">
+          <h1 class="text-5xl font-bold">Tone Xie</h1>
+          <div class="w-full border-b-2 border-black"></div>
+          <div class="flex text-gray-800 justify-center">
+            West Harbour, Auckland | +64 (0)226251936 | tone.xie@gmail.com | NZ
+            Citizen |
             <a
               href="https://tx-portfolio.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
-              <p class="pl-1">Live Site: tx-portfolio.netlify.app</p>
+              <p class="pl-1 font-bold">Site: tx-portfolio.netlify.app</p>
             </a>
           </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Crafted a dynamic personal portfolio website using React and
-              Tailwind CSS with captivating animations. Check it out!
-            </li>
-          </ul>
-        </div>
+        </header>
 
-        <div id="Fullstack_Blog" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Full-stack Blog Application using Express.js, JavaScript,
-              Handlebars, CSS in Team Environment
-            </p>
-          </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Implemented a secure authentication system with database storage,
-              incorporating hashing and salting, session management through
-              tokens in cookies, and dynamic client-side verification via AJAX
-              calls to API endpoints.
-            </li>
-            <li class="mb-0">
-              Collaborated with teammates on GitHub, working closely with each
-              other to resolve merge conflicts.
-            </li>
-          </ul>
-        </div>
+        <section id="Personal_Statement" class="mb-3">
+          <h2 class="text-2xl font-bold">Personal Statement</h2>
+          <div class="w-full border-b border-gray-700 mb-1"></div>
+          <p>
+            Combining my background in structural engineering with a lifelong
+            passion for software development, I've embarked on a journey fueled
+            by my desire for crafting solutions and building tangible results.
+            My goal is to apply my diverse skill set to make meaningful
+            contributions to innovative projects. I am eager to join a dynamic
+            environment that not only promotes continuous learning and
+            development but also embodies a strong commitment to professional
+            growth with a positive and inclusive company culture. Outside of
+            work, you'll often find me on the tennis court or immersed in a good
+            book.
+          </p>
+        </section>
 
-        <div id="Pokemon_website" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">Interactive Pokemon Data Viewer Website</p>
-          </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Created an interactive website using HTML, CSS, and JavaScript,
-              with multiple theme selectors.
-            </li>
-            <li class="mb-0">
-              Utilized AJAX requests and API calls to third-party applications
-              for enhanced functionality.
-            </li>
-          </ul>
-        </div>
-      </section>
+        <section id="Work_Experience" class="mb-3">
+          <h2 class="text-2xl font-bold mb-0.5">Work Experience</h2>
+          <div class="w-full border-b border-gray-700 mb"></div>
 
-      <section id="Education" class="mb-1.5">
-        <h2 class="text-2xl font-bold mb-0.5">Education</h2>
-        <div class="w-full border-b border-gray-700 mb"></div>
+          <div id="Tutor" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Postgraduate Web Development Tutor | University of Auckland
+              </p>
+              <p class="italic">February 2024 - Present</p>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Guided postgraduate students in mastering web development
+                technologies as a tutor, emphasizing foundational concepts,
+                responsive design, frontend and backend frameworks, database
+                management, and version control systems.
+              </li>
+            </ul>
+          </div>
 
-        <div id="Masters_IT" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Masters of Information Technology | University of Auckland
-            </p>
-            <p class="italic">February 2024 - Present</p>
+          <div id="Fourier" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Frontend Engineer Intern | Fourier Labs | Remote
+              </p>
+              <p class="italic">November 2023 - January 2024</p>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Ensured full responsiveness for a React website with the use of
+                Tailwind.
+              </li>
+              <li class="mb-0">
+                Integrated new components, such as page views and visual
+                features, for a VueJs website based on Figma design
+                specifications. Improved functionality of footer links and
+                addressed existing bugs.
+              </li>
+              <li class="mb-0">
+                Demonstrated commitment and drive in learning new technologies
+                through rapid acquisition of skills in React, VueJs, and
+                Tailwind CSS with no prior knowledge.
+              </li>
+            </ul>
           </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Advanced Information Security | Creating Maintainable Software |
-              Advanced Topics in Database Systems
-            </li>
-          </ul>
-        </div>
 
-        <div id="Postgrad_IT" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Postgrad Cert. of Information Technology | University of Auckland
-              | A+ (96%)
-            </p>
-            <p class="italic">June 2023 - November 2023</p>
+          <div id="HFC" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Structural Engineer | Harris Foster Consulting Group | Auckland
+              </p>
+              <p class="italic">June 2022 - April 2023</p>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Effectively managed and coordinated work on hundreds of
+                different projects from terrace housing and 3-story standalone
+                homes, to housing developments up to 17 blocks at a time, to
+                issuing CANs addressing on-site issues.
+              </li>
+              <li class="mb-0">
+                Consistently demonstrated exceptional time management skills and
+                work efficiency, successfully managing up to 20 concurrent
+                projects with a strong track record of meeting deadlines and
+                delivering within budget.
+              </li>
+            </ul>
           </div>
-          <ul class="list-disc pl-5">
-            <li class="mb-0">
-              Programming for Industry | Programming with Web Technologies
-            </li>
-          </ul>
-        </div>
 
-        <div id="UQ" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              Bachelor of Engineering Honours | University of Queensland |
-              Brisbane
-            </p>
-            <p class="italic">February 2017 - January 2021</p>
+          <div id="TMC" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Graduate Structural Engineer | TMC Consulting Engineers |
+                Auckland
+              </p>
+              <p class="italic">Jun 2021 - Feb 2022</p>
+            </div>
+            <ul class="list-disc pl-5 leading-tight">
+              <li class="mb-1">
+                Completed over 60 projects, including structural calculations,
+                CAD drawings, and preparation of BC documents.
+              </li>
+            </ul>
           </div>
-        </div>
 
-        <div id="AIC" class="mb-1.5">
-          <div class="flex justify-between">
-            <p class="font-bold">
-              International Baccalaureate | Diploma Auckland International
-              College
-            </p>
-            <p class="italic">June 2014 - July 2016</p>
+          <div id="MEC">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Intern &#8594; Graduate Engineer | MEC Consultant Engineering |
+                Auckland
+              </p>
+              <p class="italic">Dec 2019 - Feb 2021</p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="Skills" class="mb-1.5">
-        <h2 class="text-2xl font-bold mb-0.5">Skills</h2>
-        <div class="w-full border-b border-gray-700 mb-3"></div>
+        <section id="Personal_Projects" class="mb-1.5">
+          <h2 class="text-2xl font-bold mb-0.5">Projects</h2>
+          <div class="w-full border-b border-gray-700 mb"></div>
 
-        <div class="flex gap-1.5 gap-x-2 flex-wrap justify-center">
-          <div class="px-2.5 py-0.5 border border-black rounded-full">Java</div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            JavaScript
+          <div id="Personal_web" class="mb-1.5">
+            <div class="flex font-bold">
+              Personal Portfolio Website |
+              <a
+                href="https://tx-portfolio.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p class="pl-1">Live Site: tx-portfolio.netlify.app</p>
+              </a>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Crafted a dynamic personal portfolio website using React and
+                Tailwind CSS with captivating animations. Check it out!
+              </li>
+            </ul>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            React
+
+          <div id="Fullstack_Blog" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Full-stack Blog Application using Express.js, JavaScript,
+                Handlebars, CSS in Team Environment
+              </p>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Implemented a secure authentication system with database
+                storage, incorporating hashing and salting, session management
+                through tokens in cookies, and dynamic client-side verification
+                via AJAX calls to API endpoints.
+              </li>
+              <li class="mb-0">
+                Collaborated with teammates on GitHub, working closely with each
+                other to resolve merge conflicts.
+              </li>
+            </ul>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            VueJs
+
+          <div id="Pokemon_website" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">Interactive Pokemon Data Viewer Website</p>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Created an interactive website using HTML, CSS, and JavaScript,
+                with multiple theme selectors.
+              </li>
+              <li class="mb-0">
+                Utilized AJAX requests and API calls to third-party applications
+                for enhanced functionality.
+              </li>
+            </ul>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">HTML</div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">CSS</div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            Tailwind
+        </section>
+
+        <section id="Education" class="mb-1.5">
+          <h2 class="text-2xl font-bold mb-0.5">Education</h2>
+          <div class="w-full border-b border-gray-700 mb"></div>
+
+          <div id="Masters_IT" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Masters of Information Technology | University of Auckland
+              </p>
+              <p class="italic">February 2024 - Present</p>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Advanced Information Security | Creating Maintainable Software |
+                Advanced Topics in Database Systems
+              </li>
+            </ul>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            NodeJs
+
+          <div id="Postgrad_IT" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Postgrad Cert. of Information Technology | University of
+                Auckland | A+ (96%)
+              </p>
+              <p class="italic">June 2023 - November 2023</p>
+            </div>
+            <ul class="list-disc pl-5">
+              <li class="mb-0">
+                Programming for Industry | Programming with Web Technologies
+              </li>
+            </ul>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            ExpressJs
+
+          <div id="UQ" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                Bachelor of Engineering Honours | University of Queensland |
+                Brisbane
+              </p>
+              <p class="italic">February 2017 - January 2021</p>
+            </div>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            GitHub
+
+          <div id="AIC" class="mb-1.5">
+            <div class="flex justify-between">
+              <p class="font-bold">
+                International Baccalaureate | Diploma Auckland International
+                College
+              </p>
+              <p class="italic">June 2014 - July 2016</p>
+            </div>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            Python
+        </section>
+
+        <section id="Skills" class="mb-1.5">
+          <h2 class="text-2xl font-bold mb-0.5">Skills</h2>
+          <div class="w-full border-b border-gray-700 mb-3"></div>
+
+          <div class="flex gap-1.5 gap-x-2 flex-wrap justify-center">
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              Java
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              JavaScript
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              React
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              VueJs
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              HTML
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              CSS
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              Tailwind
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              NodeJs
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              ExpressJs
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              GitHub
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              Python
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              SQL
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              English Native
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              Mandarin Fluent
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              AutoCAD
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              Bluebeam
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              SpaceGass
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              SAP200
+            </div>
+            <div class="px-2.5 py-0.5 border border-black rounded-full">
+              Microsoft Office Suite
+            </div>
           </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">SQL</div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            English Native
-          </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            Mandarin Fluent
-          </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            AutoCAD
-          </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            Bluebeam
-          </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            SpaceGass
-          </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            SAP200
-          </div>
-          <div class="px-2.5 py-0.5 border border-black rounded-full">
-            Microsoft Office Suite
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
     <a
       href="./Resume_XIE_TONE.pdf"
