@@ -20,6 +20,15 @@ body {
   z-index: 1;
 }
 
+.skills {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  border: 1px solid #000;
+  border-radius: 10rem;
+}
+
 #Matrix {
   position: absolute;
   top: 0px;
@@ -43,8 +52,8 @@ body {
 }
 
 /* FOR PDF CONVERSION */
-body {
+/* body {
   .resume {
     margin-top: 5%;
   }
-}
+} */
